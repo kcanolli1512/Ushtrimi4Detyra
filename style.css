@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('blurred-people-office_23-2147707755.jpg');
+    background-size: cover;
+}
+.header h4{
+    margin-top: 50px;
+    text-align: center;
+}
+.header h3{
+    margin: 20px 0px;
+    text-align: center;
+}
+button{
+    border: none;
+    color: white;
+    padding: 7px;
+    border-radius: 12px;
+
+}
+.butoni_vjollce{
+    background-color: blueviolet;
+}
+.butoni_pembe{
+    background-color: pink;
+}
+
+.text_cont h4{
+    text-align: center;
+}
+.cols{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.container{
+    display: flex;
+    height: 250px;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    margin: 30px 0;
+    text-align: center;
+}
+.pershkrimi{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.pershkrimi img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left, .middle, .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.pershkrimi h4{
+    text-align: center;
+    margin: 10px 0;
+}
+.pjesa_trete{
+    height: 200px;
+    margin-top: 50px;
+    padding-top: 100px;
+    align-items: center;
+    text-align: center;
+    background-image: url('blurred-people-office_23-2147707755.jpg');
+    background-size: cover;
+}
+.pjesa_trete img{
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.upper_row{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.e_para, .e_dyta, .e_treta, .e_katerta{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 125px;
+}
+.upper_row h5{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.upper_row img{
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.middle_row{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.middle_row img{
+    align-items: center;
+    margin: 40px 250px;
+    width: 500px;
+    height: 500px;  
+} 
+.me_tekst, .me_foto{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.me_tekst{
+    padding: 150px 0;
+}
+.me_tekst h4{
+    padding-right: 150px;
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+.me_tekst li{
+    padding-right: 250px;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+.butoni_tjeter{
+    display: flex;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 7px;
+    margin-top: 30px;
+    margin-right: 300px;
+    border-radius: 12px;
+    
+}
+.bottom_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team_presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.team_presentation h3{
+    text-align: center;
+    font-size: 22pt;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.team_presentation p{
+    color: mediumslateblue;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.team_pics{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.team_pics h5{
+    color: mediumslateblue;
+    margin-bottom: 5px;
+}
+.team_pics p{
+    margin-bottom: 10px;
+}
+.img_1, .img_2, .img_3, .img_4{
+    padding-top: 15px;
+    display: flex;
+    vertical-align: top;
+}
+.tw_1, .tw_2, .tw_3, .tw_4{
+    display: flex;
+    justify-content: space-between;
+}
+img.icon{
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 10px;
+
+}
+.p_pare, .p_dyte, .p_trete, .p_katert{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.img_im{
+    height: 150px;
+    width: 150px;
+    padding-right: 10px;
+}
+.team_pics p, h5{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url('blurred-people-office_23-2147707755.jpg');
+    background-size: cover;
+}
+.left_side img{
+    align-items: center;
+    margin: 40px 250px;
+    width: 200px;
+    height: 200px;  
+}
+.left_side h3{
+    margin-top: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+.right_side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+.right_side p {
+    font-size: 14px;
+}
+.right_side img{
+    display: flex;
+}
+.kol_pare, .kol_dyte{
+    padding-top: 20px;
+    margin: 50px 50px;
+}
+.right_side img{
+    width: 20px;
+    height: 20px;
+}
